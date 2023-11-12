@@ -1,0 +1,82 @@
+main{
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    
+}
+div#conteudo{
+    max-width: 1000px;
+    width: 100%;
+    height: auto; min-height: 80vh;
+    padding: 0px 20px 0px 20px;
+    z-index: 1;
+}
+
+/*Categorias*/
+div#categoria p{
+    margin-block-start: 0;
+}
+div#categoria_imagens{
+    display: flex;
+    justify-content: start;
+    min-width: 100%; height: auto;
+}
+div#categoria_imagens a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-size: contain;
+}
+div#categoria_imagens a:hover {
+    transition: transform 0.3s ease; 
+    transform: scale(1.05); 
+}
+div#categoria_imagens a img{
+    border-radius: 100%;
+    padding: 0px 20px 0px 0px;
+}
+
+/*Receitas*/
+div#cardReceita{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+div.conteudoReceitas{
+    width: 28%;
+    min-height: 220px;
+    margin-right: 33px; 
+    margin-bottom: 33px; 
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.conteudoReceitas:hover {
+    transition: transform 0.5s ease; 
+    transform: scale(1.05); 
+}
+div.conteudoReceitas a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.ImagemReceita img{
+    width: 220px; height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+div.NomeReceita p{
+    width: 220px;
+    margin-block: 5px;
+    font-size: 1.2em;
+}
+div.DescricaoReceita p{
+    width: 220px;
+    margin-block: 5px;
+    font-size: 1em;
+}

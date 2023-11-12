@@ -1,0 +1,142 @@
+/*==================Conteudo==================*/
+main{
+    height: auto; width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/*login*/
+#divCadastro{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border:#FB6107 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px; 
+    margin-top: 25px; margin-bottom: 25px;
+    color: black;
+}
+#divLogin{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.divForm{
+    border:#ffb418 1px solid;
+    border-radius: 10px;
+    padding:10px;
+    height: max-content;
+}
+.divForm form a{
+    
+    color: #ffb418;
+    font-size: small;
+    margin-bottom: 10px;
+    width: auto;
+}
+.buttonSubmit{
+    width: 100px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #ffb418;
+    border: 1px solid #ffb418;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.buttonSubmit:hover{
+    background-color: black;
+    color: #fff;
+
+    transition: 400ms;
+    cursor: pointer;
+}
+
+/*registro*/
+#divRegistro{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+#divSexo{
+    display: flex;
+}
+#divSexo #fem, #divSexo #masc{
+    width: auto;
+    margin-top: 0px;
+}
+/*Inputs*/
+.formClass{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputBox{
+    position: relative;
+    width: auto;
+}
+.inputBox#inputSexo{
+    height: 40px;
+    padding-top: 20px;
+    width: 50%;
+    border: 1px solid #FB6107;
+    border-radius: 5px;
+    justify-content: flex-start;
+}
+.inputBox#inputSexo input{
+    width: auto;
+    margin: 0;
+}
+.inputBox input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #FB6107;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+}
+.inputBox span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: black;
+    text-transform: uppercase;
+    transition: 250ms;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+    display: auto;
+    color: #fff;
+    transform: translate(10px,-10px);
+    font-size: 0.7em;
+    padding: 0px 10px;
+    margin-top: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #ffb418;
+    background-color: #ffb418;
+    letter-spacing: 0.2em;
+    border-radius: 2px;
+}
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 1px solid #ffb418;
+}
+.inputBox input#nasc:valid,
+.inputBox input#nasc:focus {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+/*Erro Php*/
+.errorPhp{
+    color: black;
+    font-size: 1em;
+}

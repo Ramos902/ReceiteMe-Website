@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+div#conteudo{
+    max-width: 1000px;
+    width: 100%;
+    height: auto; min-height: 80vh;
+    padding: 0px 10px 0px 10px;
+    z-index: 1;
+    display: flex;
+}
+
+/*Primeira linha conteudo*/
+
+div#coluna_esquerda{
+    width: 49%;
+    padding: 1%;    
+    line-height: 15px;
+}
+div#coluna_direita{
+    width: 49%;
+    padding: 1%;
+}
+div#coluna_direita img{
+    width: 100%; height: 100%; max-height: 450px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+div#divInfo{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+div#divExit{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+div#divExit a{
+    padding: 10px;
+    border: 1px solid #FB6107;
+    border-radius: 10px;
+    
+}

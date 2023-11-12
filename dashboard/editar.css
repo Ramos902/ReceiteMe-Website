@@ -1,0 +1,81 @@
+main {
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+div#conteudo {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 20px 0px 20px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+/*Inputs*/
+.Inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputBox input{
+    margin-bottom: 20px;
+}
+.inputBox input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #FB6107;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+}
+
+.inputBox textarea{
+    padding: 10px;
+    width: 80%; min-height: 120px;
+    resize: none;
+    border: 1px solid #FB6107;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+div#divEnviar{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+div#divEnviar input{
+    width: 200px;
+    background-color: #FB6107;
+    color: white;
+    font-weight: bold;
+}
+div#divEnviar input:hover{
+    cursor: pointer;
+}
+
+select {
+    border: 1px solid #FB6107;
+    outline: 0;
+    font: inherit;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 20px;
+}

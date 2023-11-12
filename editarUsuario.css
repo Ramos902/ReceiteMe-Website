@@ -1,0 +1,65 @@
+main{
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    
+}
+div#conteudo{
+    max-width: 1000px;
+    width: 100%;
+    height: auto; min-height: 80vh;
+    padding: 0px 20px 0px 20px;
+    z-index: 1;
+}
+
+div#primeira_linha{
+    display: flex;
+}
+div#coluna_esquerda{
+    width: 70%;
+}
+div#coluna_direita{
+    text-align: end;
+    width: 25%;
+}
+div#coluna_direita img{
+    background-color: white;
+    width: 50%;
+    border-radius: 5%;
+}
+
+/*Inputs*/
+.Inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputBox input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #FB6107;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+}
+
+div#divEnviar{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+div#divEnviar input{
+    width: 150px;
+    background-color: #FB6107;
+    color: white;
+    font-weight: bold;
+}
+div#divEnviar input:hover{
+    cursor: pointer;
+}
+
+

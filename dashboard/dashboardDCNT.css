@@ -1,0 +1,63 @@
+/*Cabeçalho*/
+div.cabecalho {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1%;
+    text-align: center;
+}
+div.cabecalho div.idDoenca{
+    width: 5%;
+}
+
+div.cabecalho div.NomeDoenca{
+    width: 25%;
+}
+div.cabecalho div.QuantidadeUsuario{
+    width: 25%;
+}
+div.cabecalho div.QuantidadeReceitas{
+    width: 25%;
+    word-wrap: break-word;
+    height: auto;
+}
+div.cabecalho div.OpcoesDCNTs{
+    width: 16%;
+}
+
+/*Conteudo*/
+div.conteudo {
+    width: 100%; min-height: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-align: center;
+}
+div.conteudo div.idDoenca{
+    width: 5%;
+}
+
+div.conteudo div.NomeDoenca{
+    width: 25%;
+}
+div.conteudo div.QuantidadeUsuarios{
+    width: 25%;
+}
+div.conteudo div.QuantidadeReceitas{
+    width: 25%;
+    word-wrap: break-word;
+    height: auto;
+}
+div.conteudo div.OpcoesDCNTs{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+}

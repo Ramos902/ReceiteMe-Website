@@ -1,0 +1,91 @@
+
+/*Cabeçalho Receita*/
+div.cabecalhoReceitas {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1%;
+}
+div.cabecalhoReceitas div.idReceita{
+    width: 3%;
+}
+div.cabecalhoReceitas div.ImagemReceita{
+    width: 15%;
+}
+div.cabecalhoReceitas div.ImagemReceita img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+div.cabecalhoReceitas div.NomeReceita{
+    width: 28%;
+    
+}
+div.cabecalhoReceitas div.CategoriaReceita{
+    width: 10%;
+    
+}
+div.cabecalhoReceitas div.DCNTsReceita{
+    width: 20%;
+    word-wrap: break-word;
+    height: auto;
+    
+}
+div.cabecalhoReceitas div.SttsReceita{
+    width: 7%;
+    
+}
+div.cabecalhoReceitas div.OpcoesReceita{
+    width: 11%;
+    
+}
+
+
+/*Receitas*/
+div.conteudoReceitas {
+    width: 100%; min-height: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+div.conteudoReceitas div.idReceita{
+    width: 3%;
+}
+div.conteudoReceitas div.ImagemReceita{
+    width: 15%;
+}
+div.conteudoReceitas div.ImagemReceita img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+div.conteudoReceitas div.NomeReceita{
+    width: 28%;
+    
+}
+div.conteudoReceitas div.CategoriaReceita{
+    width: 10%;
+    
+}
+div.conteudoReceitas div.DCNTsReceita{
+    width: 20%;
+    word-wrap: break-word;
+    height: auto;
+    
+}
+div.conteudoReceitas div.SttsReceita{
+    width: 7%;
+    
+}
+div.conteudoReceitas div.OpcoesReceita{
+    width: 11%;
+    
+}

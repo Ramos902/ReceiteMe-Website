@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+div#conteudo {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 20px 0px 20px;
+    z-index: 1;
+    
+}
+div#conteudo div#linha {
+    display: flex;
+}
+div#conteudo h1 {
+    line-height: 15px;
+}
+/*Conteudo*/
+div#coluna_esquerda {
+    width: 18%;
+    height: 300px;
+}
+div#coluna_direita {
+    margin-left: 2%;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+div#coluna_direita div#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div#coluna_direita div#titulo span{
+    padding: 10px;
+    border: 1px solid #FB6107;
+    border-radius: 10px;
+}

@@ -1,0 +1,51 @@
+/*Cabeçalho*/
+div.cabecalho {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6%;
+}
+div.cabecalho div.idUsuario{
+    width: 3%;
+}
+div.cabecalho div.ImagemUsuario{
+    width: 10%;
+}
+div.cabecalho div.ImagemUsuario img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+div.cabecalho div.NomeUsuario{
+    width: 20%;
+}
+div.cabecalho div.EmailUsuario{
+    width: 28%;
+}
+div.cabecalho div.DCNTsUsuario{
+    width: 20%;
+    word-wrap: break-word;
+    height: auto;
+}
+div.cabecalho div.AdmUsuario{
+    width: 7%;
+}
+div.cabecalho div.OpcoesUsuario{
+    width: 8%;
+}
+
+/*Conteudo*/
+div.conteudo {
+    width: 100%; min-height: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
