@@ -33,7 +33,6 @@ if (isset($_GET['search'])) {
                                       AND dc.nomeDoenca LIKE '%$pesquisa%')";
 
     $comandoDadosReceita = mysqli_query($conexao, $selectReceita) or die(mysqli_error($conexao));
-
 }
 
 //Selecionar Categoria
@@ -64,6 +63,7 @@ if (isset($_GET['cat'])) {
     <link href="index.css" rel="stylesheet">
     <link href="fullsite.css" rel="stylesheet">
     <link href="assets/header_footer.css" rel="stylesheet">
+    <script src="index_script.js"></script>
     <title>ReceiteMe</title>
 </head>
 
@@ -73,6 +73,38 @@ if (isset($_GET['cat'])) {
     ?>
     <main>
         <div id="conteudo">
+            <!--Slider-->
+            <div id="slider">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <!--Imagens do Slider-->
+                <div class="slides">
+                    <div class="slide first">
+                        <img src="./images/site/slider/Receita especial para o dia dos avós banner.png" alt="Imagem1">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/site/slider/Receita especial para o dia dos avós banner.png" alt="Imagem2">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/site/slider/Receita especial para o dia dos avós banner.png" alt="Imagem3">
+                    </div>
+                </div>
+
+                <div id="navigation-auto">
+                    <div id="auto-btn1"></div>
+                    <div id="auto-btn2"></div>
+                    <div id="auto-btn3"></div>
+                </div>
+
+                <div id="navigation">
+                    <label for="radio1" class="navigators"></label>
+                    <label for="radio2" class="navigators"></label>
+                    <label for="radio3" class="navigators"></label>
+                </div>
+            </div>
+
             <div id="categoria">
                 <h1>Categorias</h1>
                 <div id="categoria_imagens">
@@ -94,10 +126,9 @@ if (isset($_GET['cat'])) {
                 ?>
                     <h1>Resultado da Pesquisa - "<?= $pesquisa ?>"</h1>
                 <?php elseif (isset($_GET['cat'])) :
-                
+
                     if (isset($CatPesquisa) && is_array($CatPesquisa) && !empty($CatPesquisa)) {
                         print("<h1>Resultados da Categoria - " . $CatPesquisa['nomeCategoria'] . " </h1>");
-                        
                     } else {
                         print("<h1>Nenhuma receita encontrada para esta categoria</h1>");
                     }
