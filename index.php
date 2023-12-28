@@ -82,13 +82,13 @@ if (isset($_GET['cat'])) {
                 <!--Imagens do Slider-->
                 <div class="slides">
                     <div class="slide first">
-                        <img src="./images/site/slider/Receita especial para o dia dos avós banner.png" alt="Imagem1">
+                        <img src="./images/site/slider/image_1.png" alt="Imagem1">
                     </div>
                     <div class="slide">
-                        <img src="./images/site/slider/Receita especial para o dia dos avós banner.png" alt="Imagem2">
+                        <img src="./images/site/slider/image_2.png" alt="Imagem2">
                     </div>
                     <div class="slide">
-                        <img src="./images/site/slider/Receita especial para o dia dos avós banner.png" alt="Imagem3">
+                        <img src="./images/site/slider/image_3.png" alt="Imagem3">
                     </div>
                 </div>
 
