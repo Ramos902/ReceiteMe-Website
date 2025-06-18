@@ -4,7 +4,15 @@
 **Resumo**: Projeto desenvolvido como Trabalho de Conclusão de Curso (TCC) no curso técnico em Informática. O site tem como objetivo compartilhar receitas personalizadas, com filtros específicos para atender pessoas com Doenças Crônicas Não Transmissíveis (DCNTs), facilitando a busca por opções alimentares saudáveis
 e adequadas a diferentes necessidades nutricionais.
 
-## 🧪 Tecnologias utilizadas
+## ✅ Funcionalidades
+
+- Cadastro e login de usuários
+- Upload de receitas com imagem, ingredientes e modo de preparo
+- Filtros por condição de saúde e tipo de receita
+- Sistema de perfil do usuário (visualização, edição)
+- Interface responsiva para dispositivos móveis
+
+### 🧪 Tecnologias utilizadas
 
 - **PHP** – Backend e lógica do servidor
 - **HTML/CSS** – Estrutura e estilo das páginas
@@ -25,5 +33,6 @@ e adequadas a diferentes necessidades nutricionais.
     - WAMP → C:\wamp64\www\
     - Laragon → C:\laragon\www\
     3. Importe o banco de dados (script localizado em assets/database.sql).
+    4. Acesse o sistema pelo navegador: http://localhost:****/ReceiteMe-Website/index.php
 
-Acesse o sistema pelo navegador: http://localhost:****/ReceiteMe-Website/index.php
+## 📸 Screenshots
