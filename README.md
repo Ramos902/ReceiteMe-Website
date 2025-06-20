@@ -41,4 +41,4 @@ e adequadas a diferentes necessidades nutricionais.
 ![Tela de Login do Sistema](screenshots/login.png)
 ![Tela de Perfil do Usuário](screenshots/profile.png)
 ![Tela da Receita](screenshots/recipe.png)
-![Tela do Painel de Controle da Receita](recipeControlPanel.png)
+![Tela do Painel de Controle da Receita](screenshots/recipeControlPanel.png)
