@@ -36,3 +36,9 @@ e adequadas a diferentes necessidades nutricionais.
     4. Acesse o sistema pelo navegador: http://localhost:****/ReceiteMe-Website/index.php
 
 ## 📸 Screenshots
+
+![Tela Inicial do Sistema](screenshots/index.png)
+![Tela de Login do Sistema](screenshots/login.png)
+![Tela de Perfil do Usuário](screenshots/profile.png)
+![Tela da Receita](screenshots/recipe.png)
+![Tela do Painel de Controle da Receita](recipeControlPanel.png)
